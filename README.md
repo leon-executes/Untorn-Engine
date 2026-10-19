@@ -1,9 +1,11 @@
 <p align="center"><img src="docs/mark.svg" width="88" alt="Untorn Engine"></p>
 <h1 align="center">Untorn Engine</h1>
-<p align="center"><strong>Low resolution. Clearly defined.</strong><br>Source-derived detail. Controlled tone. Local execution.</p>
+<p align="center"><strong>Untorn Image clarity to restore low-res images.</strong><br>Source-derived detail. Controlled tone. Local execution.</p>
 <p align="center">Windows x64 · Native desktop · Fractional scaling · Python CLI</p>
 
-![Untorn Engine — native Windows workspace](docs/interface.jpg)
+![Untorn Engine — native Windows workspace](https://github.com/user-attachments/assets/09650a33-276d-41e8-bab5-40e0155b3afc)
+
+Portable, deterministic image upscaling for Windows x64, engineered for clean edges and faithful detail from low-resolution images. Processing runs locally without AI models.
 
 **Untorn Engine is a portable image upscaler built to make low-resolution images
 clearer at useful output sizes.** It separates structure, broad shading,
