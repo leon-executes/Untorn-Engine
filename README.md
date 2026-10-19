@@ -33,6 +33,8 @@ Processing is local: no account, cloud service, telemetry, trained model or mode
 [Samples](#included-samples) · [CLI](#command-line) ·
 [Build](#build-and-verification) · [License](#license)
 
+![Untorn Engine — native Windows workspace 2](https://github.com/user-attachments/assets/f4c93865-65a4-4aea-8af3-6a9de583c1e7)
+
 ## Run
 
 1. Extract **Untorn-Engine-Windows-x64.zip** into a writable directory.
