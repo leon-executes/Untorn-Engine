@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
   <title id="title">Untorn Engine</title>
-  <path fill="#eee9df" d="M112 96h56v208l40 40h96l40-40V96h56v230l-74 74H186l-74-74Z"/>
-  <path fill="#ef5148" d="M344 96h56v80h-56Z"/>
+  <path fill="#eee9df" d="M112 96L168 96L168 304L208 344L304 344L344 304L344 96L400 96L400 326L326 400L186 400L112 326Z"/>
+  <path fill="#ef5148" d="M344 96L400 96L400 176L344 176Z"/>
 </svg>

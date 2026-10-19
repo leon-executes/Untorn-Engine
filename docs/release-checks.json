@@ -162,18 +162,12 @@
       "flat_identity": true
     }
   },
-  "native_launch": {
-    "scope": "Five-second hidden executable launch; no visual UI interaction",
-    "responding": true,
-    "native_window_detected": false,
-    "launch_survived": true
-  },
-  "gui_executable_sha256": "12bc3d6bb922f1522afcf031d2b3431e4a89948352e99138a6d30fba13c7d99d",
-  "cli_executable_sha256": "e18d5b4ed73e3872f2c292ab25a66f5e12eb0d0bc45e23e6cb250879a2cd5973",
+  "gui_executable_sha256": "6ea365eb6df1d11be4827afb98fd5d985998c6490f6fd91c81fda0e975c947c2",
+  "cli_executable_sha256": "ac457caada8c92d95ae99540595a9c15fed41ddd7378b4c7f1280ba14175a3eb",
   "distribution_content": {
-    "revision": "five-samples-and-architecture-docs",
+    "revision": "five-samples-architecture-docs-and-geometric-u",
     "numerical_source_unchanged": true,
-    "executables_unchanged": true,
+    "executables_unchanged": false,
     "samples": {
       "coffee.png": {
         "size": [
@@ -216,5 +210,48 @@
     "engineering_sha256": "f4aad70424c7dff465b8373996dd95082f4716ba372be37d821662a17989a26c",
     "notice_sha256": "aedfa8086c19f48a073543794552c4f24e94137cb621227326c8f2242469a7f5",
     "documentation_links_verified": true
+  },
+  "identity_revision": {
+    "revision": "geometric-u-2026-10-19",
+    "engine_source_unchanged": true,
+    "mark_sha256": "a5d2f29e11ce9dda2523dfd6a73cea25ab818841ff84339a369fb88370f01171",
+    "icon_sha256": "1d2aed37876527f209d2fe59bca451ef52c2b9c58bcbaf489a409f41293d2461",
+    "generator_sha256": "165b78964a8818d43ef89e93cdf42c48fe28f1a5199cd22f50278c1a80c2614d",
+    "executable_resources": {
+      "Untorn Engine.exe": {
+        "sha256": "6ea365eb6df1d11be4827afb98fd5d985998c6490f6fd91c81fda0e975c947c2",
+        "embedded_icon_frames_verified": 10
+      },
+      "UntornCLI.exe": {
+        "sha256": "ac457caada8c92d95ae99540595a9c15fed41ddd7378b4c7f1280ba14175a3eb",
+        "embedded_icon_frames_verified": 10
+      }
+    },
+    "packaged_coffee_parity": {
+      "fast": {
+        "exact_production_pixels": true,
+        "seconds": 2.7056543999933638
+      },
+      "max": {
+        "exact_production_pixels": true,
+        "seconds": 2.6965098999789916
+      },
+      "xray": {
+        "exact_production_pixels": true,
+        "seconds": 3.6878596000024118
+      }
+    },
+    "runtime_window_icon_verified": true,
+    "live_desktop_visual_check": false
+  },
+  "previous_native_launch": {
+    "scope": "Five-second hidden executable launch; no visual UI interaction",
+    "responding": true,
+    "native_window_detected": false,
+    "launch_survived": true
+  },
+  "native_launch": {
+    "scope": "This identity revision verifies embedded and runtime icon assets; no new visual window test",
+    "visual_check": false
   }
 }
