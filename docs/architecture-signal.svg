@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 870" role="img"><title>Fast, Max and X-Ray processing formulas</title><defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#8395a7" stroke-width="1.5"/></marker></defs><rect width="1200" height="870" rx="20" fill="#10151c"/><style>text{font-family:Segoe UI,Arial,sans-serif}</style><path d="M32 36h36" stroke="#ff4c43" stroke-width="3"/>
+<text x="84" y="43" font-size="21" fill="#eee9df" font-weight="600">01 / THREE PROCESSING FORMULAS</text>
+<text x="32" y="78" font-size="14" fill="#a6b2c1" font-weight="400">Distinct priorities · native 4× working grid · source-derived structure and detail</text>
+<rect x="32" y="110" width="1136" height="88" rx="12" fill="#19212b" stroke="#354251"/>
+<text x="52" y="140" font-size="16" fill="#71cbd0" font-weight="600">SHARED STRUCTURAL FIELD</text>
+<text x="52" y="166" font-size="14" fill="#a6b2c1" font-weight="400">Input → directional DCCI structure + fitted broad colour/shading when source area ≤ 262144 pixels</text>
+<polyline points="212,198 212,240" fill="none" stroke="#8395a7" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="32" y="240" width="360" height="300" rx="12" fill="#19212b" stroke="#354251"/>
+<text x="52" y="276" font-size="22" fill="#eee9df" font-weight="600">FAST</text>
+<text x="52" y="304" font-size="13" fill="#71cbd0" font-weight="600">Faithfulness + speed</text>
+<text x="52" y="344" font-size="13" fill="#a6b2c1" font-weight="400">Local Laplacian: 32 references</text>
+<text x="52" y="371" font-size="13" fill="#a6b2c1" font-weight="400">Middle-band luminance correction</text>
+<text x="52" y="398" font-size="13" fill="#a6b2c1" font-weight="400">DCCI / fitted / LL32 / GCS grain</text>
+<text x="52" y="425" font-size="13" fill="#a6b2c1" font-weight="400">Texture gating + amplitude limits</text>
+<text x="52" y="486" font-size="13" fill="#a6b2c1" font-weight="400">Lower remapping cost.</text>
+<text x="52" y="508" font-size="13" fill="#a6b2c1" font-weight="400">Modest quality tradeoff for speed.</text>
+<polyline points="212,540 212,565" fill="none" stroke="#8395a7" stroke-width="1.6"/>
+<polyline points="600,198 600,240" fill="none" stroke="#8395a7" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="420" y="240" width="360" height="300" rx="12" fill="#19212b" stroke="#354251"/>
+<text x="440" y="276" font-size="22" fill="#eee9df" font-weight="600">MAX</text>
+<text x="440" y="304" font-size="13" fill="#71cbd0" font-weight="600">Quality + faithfulness · launch default</text>
+<text x="440" y="344" font-size="13" fill="#a6b2c1" font-weight="400">Local Laplacian: 64 references</text>
+<text x="440" y="371" font-size="13" fill="#a6b2c1" font-weight="400">Middle-band luminance correction</text>
+<text x="440" y="398" font-size="13" fill="#a6b2c1" font-weight="400">DCCI / fitted / LL64 / GCS grain</text>
+<text x="440" y="425" font-size="13" fill="#a6b2c1" font-weight="400">Texture gating + amplitude limits</text>
+<text x="440" y="486" font-size="13" fill="#a6b2c1" font-weight="400">Denser local detail sampling.</text>
+<text x="440" y="508" font-size="13" fill="#a6b2c1" font-weight="400">Source-led structure and tonal balance.</text>
+<polyline points="600,540 600,565" fill="none" stroke="#8395a7" stroke-width="1.6"/>
+<polyline points="988,198 988,240" fill="none" stroke="#8395a7" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="808" y="240" width="360" height="300" rx="12" fill="#19212b" stroke="#354251"/>
+<text x="828" y="276" font-size="22" fill="#eee9df" font-weight="600">X-RAY</text>
+<text x="828" y="304" font-size="13" fill="#71cbd0" font-weight="600">Definition + tonal visibility</text>
+<text x="828" y="344" font-size="13" fill="#a6b2c1" font-weight="400">Local Laplacian: one shared 80 field</text>
+<text x="828" y="371" font-size="13" fill="#a6b2c1" font-weight="400">GCS 12% + Jinc4 6% middle donors</text>
+<text x="828" y="398" font-size="13" fill="#a6b2c1" font-weight="400">Refined LL grain + source matching</text>
+<text x="828" y="425" font-size="13" fill="#a6b2c1" font-weight="400">Grain chroma / veil + donor lighting</text>
+<text x="828" y="486" font-size="13" fill="#a6b2c1" font-weight="400">Additional perceptual enhancement.</text>
+<text x="828" y="508" font-size="13" fill="#a6b2c1" font-weight="400">More latitude from the source.</text>
+<polyline points="988,540 988,565" fill="none" stroke="#8395a7" stroke-width="1.6"/>
+<path d="M212 565H988" fill="none" stroke="#8395a7" stroke-width="1.6"/><path d="M307 565V588M893 565V588" fill="none" stroke="#8395a7" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="32" y="588" width="550" height="96" rx="12" fill="#19212b" stroke="#354251"/>
+<text x="52" y="620" font-size="18" fill="#71cbd0" font-weight="600">77% / UNALIGNED + FXAA</text>
+<text x="52" y="650" font-size="14" fill="#a6b2c1">Tangent integration → FXAA → bounded definition</text>
+<rect x="618" y="588" width="550" height="96" rx="12" fill="#19212b" stroke="#354251"/>
+<text x="638" y="620" font-size="18" fill="#71cbd0" font-weight="600">23% / ALIGNED · NO FXAA</text>
+<text x="638" y="650" font-size="14" fill="#a6b2c1">Realignment → tangent integration → bounded definition</text>
+<polyline points="307,684 307,710 600,710 600,730" fill="none" stroke="#8395a7" stroke-width="1.6" marker-end="url(#a)"/>
+<polyline points="893,684 893,710 600,710" fill="none" stroke="#8395a7" stroke-width="1.6"/>
+<rect x="32" y="730" width="1136" height="70" rx="12" fill="#19212b" stroke="#354251"/>
+<text x="52" y="759" font-size="16" fill="#71cbd0" font-weight="600">SHARED CONTRIBUTORS + BOUNDS → 77:23 COMPOSITION → EXACT OUTPUT DIMENSIONS</text>
+<text x="52" y="783" font-size="14" fill="#a6b2c1">Preserve the texture residual · floating-point branch blend · PNG / JPEG / separate vector SVG</text>
+<text x="32" y="828" font-size="13" fill="#a6b2c1">Fitted shading follows total input area. All modes preserve originals. Max is the launch default.</text>
+<text x="32" y="850" font-size="13" fill="#a6b2c1">Enhanced visibility does not prove recovery of information absent from the input.</text>
+</svg>

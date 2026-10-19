@@ -1,0 +1,220 @@
+{
+  "version": "2.3.0",
+  "numerical_version": "1.3.0",
+  "source_sha256": "6246527a1a3201b1b0066c87bc1e7b68004075fa5cc6e829654cedc0e71693c0",
+  "recipe_id": "xray-shared80-spatial-blend-v8",
+  "source_tests": 40,
+  "source_tests_passed": true,
+  "static_analysis": "Ruff F checks and format check passed",
+  "mode_contracts": {
+    "fast": 32,
+    "max": 64,
+    "xray": 80,
+    "default": "max"
+  },
+  "spatial_branches": [
+    {
+      "weight": 0.77,
+      "realignment": false,
+      "fxaa": true
+    },
+    {
+      "weight": 0.23,
+      "realignment": true,
+      "fxaa": false
+    }
+  ],
+  "library": {
+    "scenes": 19,
+    "outputs": 57,
+    "bicubic_baselines": 19,
+    "output_hashes_verified": true,
+    "packaged_cpu_coffee_parity": {
+      "fast": true,
+      "max": true,
+      "xray": true
+    },
+    "scope": "Shipping spatial code with exact cached contributor fields"
+  },
+  "selection_study_comparison": {
+    "portrait/fast": {
+      "max": 1.0,
+      "mean": 0.039210001627604164,
+      "different_fraction": 0.039210001627604164
+    },
+    "portrait/max": {
+      "max": 1.0,
+      "mean": 0.037394205729166664,
+      "different_fraction": 0.037394205729166664
+    },
+    "portrait/xray": {
+      "max": 1.0,
+      "mean": 0.039011637369791664,
+      "different_fraction": 0.039011637369791664
+    },
+    "feather-focus/fast": {
+      "max": 1.0,
+      "mean": 0.08947179357144582,
+      "different_fraction": 0.08947179357144582
+    },
+    "feather-focus/max": {
+      "max": 1.0,
+      "mean": 0.09404658407592552,
+      "different_fraction": 0.09404658407592552
+    },
+    "feather-focus/xray": {
+      "max": 1.0,
+      "mean": 0.09931227209060832,
+      "different_fraction": 0.09931227209060832
+    },
+    "dry-blades/fast": {
+      "max": 1.0,
+      "mean": 0.04793964460784314,
+      "different_fraction": 0.04793964460784314
+    },
+    "dry-blades/max": {
+      "max": 1.0,
+      "mean": 0.04770603553921569,
+      "different_fraction": 0.04770603553921569
+    },
+    "dry-blades/xray": {
+      "max": 1.0,
+      "mean": 0.050997625612745096,
+      "different_fraction": 0.050997625612745096
+    },
+    "green-grass/fast": {
+      "max": 1.0,
+      "mean": 0.057850796568627454,
+      "different_fraction": 0.057850796568627454
+    },
+    "green-grass/max": {
+      "max": 1.0,
+      "mean": 0.057326133578431374,
+      "different_fraction": 0.057326133578431374
+    },
+    "green-grass/xray": {
+      "max": 1.0,
+      "mean": 0.05896139705882353,
+      "different_fraction": 0.05896139705882353
+    }
+  },
+  "numerical_contracts": [
+    "One FXAA call in unaligned branch",
+    "One realignment call without FXAA",
+    "Exact floating-point 77:23 weights",
+    "Shared contributors and bounds",
+    "Texture residual retained before clipping",
+    "1.2.0 unfinished caches rejected"
+  ],
+  "executable_checks": {
+    "fast": {
+      "size": [
+        256,
+        256
+      ],
+      "packaged_source_exact": true,
+      "end_to_end_seconds": 2.7374937999993563,
+      "engine_seconds": 1.5939999999827705,
+      "source_seconds": 2.9497940000146627
+    },
+    "max": {
+      "size": [
+        256,
+        256
+      ],
+      "packaged_source_exact": true,
+      "end_to_end_seconds": 2.708613900002092,
+      "engine_seconds": 1.7339999999967404,
+      "source_seconds": 3.4762438999605365
+    },
+    "xray": {
+      "size": [
+        256,
+        256
+      ],
+      "packaged_source_exact": true,
+      "end_to_end_seconds": 3.725738100009039,
+      "engine_seconds": 2.7179999999934807,
+      "source_seconds": 4.478415400022641
+    },
+    "scale-2.5": {
+      "mode": "max",
+      "size": [
+        40,
+        40
+      ],
+      "flat_identity": true
+    },
+    "scale-8": {
+      "mode": "max",
+      "size": [
+        128,
+        128
+      ],
+      "flat_identity": true
+    },
+    "scale-16": {
+      "mode": "max",
+      "size": [
+        256,
+        256
+      ],
+      "flat_identity": true
+    }
+  },
+  "native_launch": {
+    "scope": "Five-second hidden executable launch; no visual UI interaction",
+    "responding": true,
+    "native_window_detected": false,
+    "launch_survived": true
+  },
+  "gui_executable_sha256": "12bc3d6bb922f1522afcf031d2b3431e4a89948352e99138a6d30fba13c7d99d",
+  "cli_executable_sha256": "e18d5b4ed73e3872f2c292ab25a66f5e12eb0d0bc45e23e6cb250879a2cd5973",
+  "distribution_content": {
+    "revision": "five-samples-and-architecture-docs",
+    "numerical_source_unchanged": true,
+    "executables_unchanged": true,
+    "samples": {
+      "coffee.png": {
+        "size": [
+          64,
+          64
+        ],
+        "sha256": "c8f331c47087cf82d1e11d1275da2a44a485b299aab9b90ca4ca2088a95da5f6"
+      },
+      "feather.png": {
+        "size": [
+          321,
+          172
+        ],
+        "sha256": "4953a428d03512cf36a14da14c5f03cf1e3528bc32d2797eb34df6f9212fae3f"
+      },
+      "green-grass.png": {
+        "size": [
+          128,
+          85
+        ],
+        "sha256": "9d28b769654466d2992533b29b3a6ba8b0d98762290ff647ee53b246dd0a4ecc"
+      },
+      "busy-ferns.png": {
+        "size": [
+          128,
+          72
+        ],
+        "sha256": "9b9ff4df522a9d5fcc447501931ed13a54f4ca79c9a136cb2298c6e145d7119a"
+      },
+      "dry-foliage.png": {
+        "size": [
+          128,
+          85
+        ],
+        "sha256": "e70ed351efa87bacf41e1364fceaf98a637cb171cac6b46088de49916a2dbd27"
+      }
+    },
+    "sample_decode_checks_passed": true,
+    "readme_sha256": "26575337f19d9afb1e2aac240bba461e518f4e7fbdfe840bc1263bbffd12b7c0",
+    "engineering_sha256": "f4aad70424c7dff465b8373996dd95082f4716ba372be37d821662a17989a26c",
+    "notice_sha256": "aedfa8086c19f48a073543794552c4f24e94137cb621227326c8f2242469a7f5",
+    "documentation_links_verified": true
+  }
+}

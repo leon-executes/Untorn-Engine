@@ -1,0 +1,14 @@
+{
+  "target": "Windows x64",
+  "compiler_family": "MinGW-w64 GCC",
+  "gpu_reference_samples_maximum": 80,
+  "build_entry": "source/native/build_helpers.py",
+  "components": {
+    "sinterp.exe": "Getreuer contour-stencil interpolation with BMP-only file adapter",
+    "untorn_gpu.exe": "FP64 OpenCL Local Laplacian executor"
+  },
+  "sha256": {
+    "sinterp.exe": "ddbca6cfb9331056429014a49607dd0040d61a6da0f4efd5d17d01ee5157b92a",
+    "untorn_gpu.exe": "56675da2c84ce899c7e3b2e7a81937c9b70f0d56e180b9d33d070dcd531bd1ec"
+  }
+}

@@ -1,0 +1,71 @@
+UNTORN ENGINE — COMPONENT ATTRIBUTION
+
+Original application, OpenCL executor, artwork and documentation:
+Copyright 2026 Parham (Leon) Faraji (https://github.com/leon-executes).
+PolyForm Noncommercial 1.0.0. See LICENSE.
+
+DCCI numerical port: Dengwen Zhou. BSD-2-Clause; licenses/DCCI-BSD.txt.
+Contour-stencil interpolation: Pascal Getreuer. BSD; licenses/GCS-BSD.txt.
+Local Laplacian reference: MIT; licenses/Local-Laplacian-MIT.txt.
+wxPython/wxWidgets: wxWindows Library License with binary distribution exception;
+licenses/wxPython-LICENSE.txt and licenses/wxWidgets-COPYING.LIB.txt.
+Python, NumPy and Pillow: accompanying licenses/ notices and runtime metadata.
+PyInstaller: bootloader exception; licenses/PyInstaller-COPYING.txt.
+
+source/native/contours.tar.gz contains the required upstream GCS sources and BSD notice.
+source/native/laplacian.zip retains the Local Laplacian reference and MIT notice.
+The modified BMP-only image I/O adapter retains its original BSD attribution.
+No additional restriction applies to separately licensed third-party components.
+
+Internal source matching is an original bounded implementation informed by:
+Glasner, Bagon and Irani, Super-Resolution from a Single Image, ICCV 2009.
+Huang, Singh and Ahuja, Single Image Super-Resolution from Transformed
+Self-Exemplars, CVPR 2015. These references do not imply reproduction of the
+complete research algorithms or endorsement by their authors.
+
+SAMPLE IMAGES
+
+Image-specific terms below apply to the photographs independently of the
+PolyForm application license. The images are included as evaluation inputs.
+
+samples/coffee.png — Rachel Michetti, courtesy of Pikolo Espresso Bar.
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.coffee
+Preparation: source crop (150,100)-(342,292), reduced to 64x64 with box sampling.
+
+samples/feather.png — Ed Stone (@lunarpig), Unsplash photo P2o_wseyvzc.
+Unsplash License: https://unsplash.com/license
+Source: https://unsplash.com/photos/P2o_wseyvzc
+Preparation: supplied 321x172 curved-barb crop from the photograph originally
+provided as ed-stone-P2o_wseyvzc-unsplashc.png. The supplied crop is copied
+unchanged; it is not an Untorn-generated image.
+
+samples/green-grass.png — Tony Webster, "Grass Blades (15784211126)".
+CC BY 2.0: https://creativecommons.org/licenses/by/2.0/
+Source: https://commons.wikimedia.org/wiki/File:Grass_Blades_(15784211126).jpg
+Preparation: whole photograph reduced with Lanczos to 384x255, then with box
+sampling to 128x85. These reductions are modifications to the original image.
+
+samples/busy-ferns.png — W.carter, "Lady ferns and wood sorrel".
+Public domain, as recorded in the source's license declaration.
+Source: https://commons.wikimedia.org/wiki/File:Lady_ferns_and_wood_sorrel.jpg
+Preparation: whole photograph reduced with Lanczos to 384x216, then with box
+sampling to 128x72. These reductions are modifications to the original image.
+
+samples/dry-foliage.png — Rodion Kutsaev (@frostroomhead),
+"Dry grass blades in macro (Unsplash)".
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://commons.wikimedia.org/wiki/File:Dry_grass_blades_in_macro_(Unsplash).jpg
+Original photo: https://unsplash.com/photos/JN5bfjt82so
+Preparation: whole photograph reduced with Lanczos to 384x255, then with box
+sampling to 128x85. These reductions are modifications to the original image.
+
+Attribution identifies the image sources; it does not imply endorsement of
+Untorn Engine by the photographers or source platforms.
+
+No third-party brand artwork is included.
+
+FXAA 3.11 Quality CPU port: NVIDIA CORPORATION / Timothy Lottes.
+BSD-3-Clause; licenses/FXAA-BSD.txt. Derived from the PC Quality path,
+quality preset 39; scalar texture fetches expressed as NumPy sampling.
+https://github.com/GameTechDev/CMAA2/blob/master/Projects/CMAA2/FXAA/Fxaa3_11.h
