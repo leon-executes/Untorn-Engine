@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>Untorn Engine — image enlargement</title><rect x="12" y="12" width="488" height="488" rx="100" fill="#10151c" stroke="#303945" stroke-width="3"/><rect x="96" y="151" width="287" height="245" rx="30" fill="#202c35"/><path d="M120 365L201 254L259 322L304 280L359 365Z" fill="#b4d9d5"/><circle cx="304" cy="220" r="22" fill="#eee9df"/><rect x="96" y="151" width="287" height="245" rx="30" fill="none" stroke="#eee9df" stroke-width="15"/><path d="M321 194L410 105" stroke="#10151c" stroke-width="42"/><path d="M321 194L410 105M340 105H410V175" fill="none" stroke="#ff5148" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Untorn Engine</title>
+  <path fill="#eee9df" d="M112 96h56v208l40 40h96l40-40V96h56v230l-74 74H186l-74-74Z"/>
+  <path fill="#ef5148" d="M344 96h56v80h-56Z"/>
+</svg>
